@@ -11,11 +11,10 @@ for q in range(len(all_questions["results"])):
 
 #QuestionBank
 question_Bank = qbe.Backend(question_storage)
+
+#tkinter
 ui = UI(question_Bank)
 
-
-
-#Tkinter
 
 
 
